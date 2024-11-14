@@ -1,5 +1,5 @@
 name: 02 - Eventos
-on: [push,pull_request,workflow_dispatch,schedule]
+on: [workflow_dispatch]
 
 jobs:
     echo:
