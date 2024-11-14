@@ -2,8 +2,6 @@ name: 02 - Eventos
 on:
   pull_request:
   workflow_dispatch:
-  schedule:
-    - cron: '* * * * *'
 jobs:
   echo:
     runs-on: ubunto-latest
