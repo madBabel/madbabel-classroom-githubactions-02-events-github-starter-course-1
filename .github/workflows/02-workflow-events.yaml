@@ -1,12 +1,11 @@
 name: 02 - Eventos
 on:
-  - push
-  - pull_request
-  - workflow_dispatch
+  schedule:
+   - cron: "10 * * * *"
 jobs:
   echo:
     runs-on: ubuntu-latest
     steps:          
       - name: ShowTrigger
         run: |
-          echo "Event name: ${{ github.event_name }}"
+          echo "Event name: ${{ github.event_name }}" 
