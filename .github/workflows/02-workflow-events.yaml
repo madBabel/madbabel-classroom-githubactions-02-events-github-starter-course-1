@@ -1,5 +1,8 @@
 name: 02 - Eventos
-on: push
+on: 
+  - push
+  - pull_request
+  - workflow_dispatch
 jobs:
   echo:
     runs-on: ubunto-latest
