@@ -1,5 +1,5 @@
 name: 02 - Eventos
-on: push
+on: [push]
 jobs:
   echo: 
     runs-on: ubuntu-latest
