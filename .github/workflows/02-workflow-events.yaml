@@ -5,4 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:          
       - name: ShowTrigger
-        run: "Event name: ${{ github.event_name }}"
+        run: |
+        "Event name: ${{ github.event_name }}"
