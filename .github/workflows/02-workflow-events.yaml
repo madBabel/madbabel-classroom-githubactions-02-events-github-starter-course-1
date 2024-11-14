@@ -4,7 +4,8 @@ on:
  push:
  pull_request:
  schedule:
-  - cron: '0 0 * * *' #todos los días a las 12:00 ;)
+  - cron: '* * * * *' #cada minuto
+ # - cron: '0 0 * * *' #todos los días a las 12:00 ;)
  workflow_dispatch:
 
 jobs:
