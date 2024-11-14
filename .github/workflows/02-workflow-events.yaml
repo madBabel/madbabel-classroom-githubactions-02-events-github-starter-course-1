@@ -2,7 +2,7 @@ name: 02 - Eventos
 on: 
   push:
   pull_request:
-  schedule:
+  - schedule:
     - cron: '50 16 * * *',
     - cron: '55 16 * * *',
   workflow_dispatch:
