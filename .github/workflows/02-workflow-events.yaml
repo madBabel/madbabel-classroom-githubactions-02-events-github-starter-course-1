@@ -9,4 +9,4 @@ jobs:
     steps:          
       - name: ShowTrigger
         run: |
-          echo "push" 
+          echo "Event name: ${{ github.event_name }}"
