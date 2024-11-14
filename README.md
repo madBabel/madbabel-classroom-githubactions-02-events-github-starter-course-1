@@ -2,6 +2,7 @@
 
 Explorar distintas formas en las que se pueden ejecutar workflows en GitHub Actions.
 
+
 ## Tareas
 
 1.  Crear un archivo '`02-workflow-events.yaml`' en la carpeta .github/workflows en la raíz de un repositorio. Los datos del workflow deben ser los siguientes:

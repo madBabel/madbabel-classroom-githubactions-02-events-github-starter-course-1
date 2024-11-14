@@ -1,0 +1,11 @@
+name: 02 - Eventos
+on:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  echo:
+    runs-on: ubunto-latest
+    steps: 
+      - name: ShowTrigger
+        run: |
+          echo "Event name ${{github.event_name}}"
