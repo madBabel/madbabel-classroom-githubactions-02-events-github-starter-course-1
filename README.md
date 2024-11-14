@@ -31,7 +31,7 @@ Utilizar una expresión cron válida. Para ello, tened en cuenta la sintáxis es
 
 *   _"La sintaxis de cron tiene cinco campos separados por un espacio, y cada campo representa una unidad de tiempo."_Usar crontab guru para ayudar a generar la sintaxis cron y confirmar la hora en que se ejecutará: https://crontab.guru/
 
-Para acceder al nombre del evento que desencadena el workflow, puede utilizar la variable: ${{ github.event\_name }}. Por ejemplo:
+Para acceder al nombre del evento que desencadena el workflow, puede utilizar la variable: ${{ github.event\_name }}. Por ejemplo: 
 
 ```
 steps:
